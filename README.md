@@ -14,8 +14,6 @@
 
 > 사이트 링크
 
-마크다운 사용법 : [안내문서](https://gist.github.com/ihoneymon/652be052a0727ad59601)
-
-HTML, CSS, JS 참고 사이트 : [W3Schools](https://www.w3schools.com/)
-
-온라인 에디터 : [Codepen](https://codepen.io/trending)
+마크다운 사용법 : [안내문서](https://gist.github.com/ihoneymon/652be052a0727ad59601)<br/>
+HTML, CSS, JS 참고 사이트 : [W3Schools](https://www.w3schools.com/)<br/>
+온라인 에디터 : [Codepen](https://codepen.io/trending)<br/>

@@ -40,4 +40,51 @@ HTML, CSS, JS 참고 사이트 : [W3Schools](https://www.w3schools.com/)<br/>
 
 > [HTML Introduction](https://www.w3schools.com/html/html_intro.asp)<br/>
 
+> [HTML Elements](https://www.w3schools.com/html/html_elements.asp)<br/>
+
+> [HTML Attributes](https://www.w3schools.com/html/html_attributes.asp)<br/>
+
+HTML 속성(Attributes)
+1) HTML Element에 추가 정보를 제공
+2) name = "value" 형태로 사용
+
+> [HTML Headings](https://www.w3schools.com/html/html_headings.asp)<br/>
+
+제목 태그(Tag)
+Heading -> h
+h1 ~ h6
+
+> [HTML Paragraphs](https://www.w3schools.com/html/html_paragraphs.asp)
+
+단락 태그
+Paragraph -> p
+
+수평선
+Horizontal Rules -> hr(Empty Element)
+
+> [HTML Links](https://www.w3schools.com/html/html_links.asp)
+
+하이퍼링크
+Anchor -> a
+href : 링크로 연결된 목적지 주소
+
+1) 외부링크
+- 링크 주소 입력 시 http(https) 키워드를 사용
+
+2) 북마크
+- 목적지에 id attribute를 사용해서 이름을 정해줌
+- href attribute에 #를 사용해서 목적지 이름을 입력
+
+[HTML Tables](https://www.w3schools.com/html/html_tables.asp)
+
+- [Table Generator](https://www.tablesgenerator.com/html_tables)
+
+[HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+
+1) 순서없는 목록(ul)
+2) 순서있는 목록(ol)
+3) 설명 목록
+
+ul, ol 목록에서 중첩(nested) 형태로 사용할때 포함 관계를 주의
+- 포함하는 목록 항목에 작은 목록 전체가 포함됨
 

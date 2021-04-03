@@ -83,11 +83,11 @@ href : 링크로 연결된 목적지 주소
 - 목적지에 id attribute를 사용해서 이름을 정해줌
 - href attribute에 #를 사용해서 목적지 이름을 입력
 
-[HTML Tables](https://www.w3schools.com/html/html_tables.asp)
+> [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 
 - [Table Generator](https://www.tablesgenerator.com/html_tables)
 
-[HTML Lists](https://www.w3schools.com/html/html_lists.asp)
+> [HTML Lists](https://www.w3schools.com/html/html_lists.asp)
 
 1) 순서없는 목록(ul)
 2) 순서있는 목록(ol)
@@ -98,14 +98,14 @@ ul, ol 목록에서 중첩(nested) 형태로 사용할때 포함 관계를 주�
 
 ### 이미지 콘텐츠 요소
 
-[HTML Images](https://www.w3schools.com/html/html_images.asp)
+> [HTML Images](https://www.w3schools.com/html/html_images.asp)
 
 1) src attiribute : 가져올 이미지 파일 위치 정보
 2) alt(alternative) attribute : 대체 텍스트
 
 ### 멀티미디어 콘텐츠 요소
 
-[HTML Video](https://www.w3schools.com/html/html5_video.asp)
+> [HTML Video](https://www.w3schools.com/html/html5_video.asp)
 
 attribute의 형태
 1) name = "value"
@@ -117,7 +117,7 @@ video 태그의 attribute
 3) muted
 4) loop
 
-[HTML YouTube Videos](https://www.w3schools.com/html/html_youtube.asp)
+> [HTML YouTube Videos](https://www.w3schools.com/html/html_youtube.asp)
 
 Youtube의 매개변수
 1) controls => youtube_url/VIDEO_ID?controls=1
@@ -127,4 +127,25 @@ Youtube의 매개변수
 
 여러 매개변수 동시 사용
 youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1&playlist=VIDEO_ID (& : ampersand)
+
+
+### HTML5 Content Model
+: Sectioning Contents
+=> Semantic Element
+
+> [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+
+1) 특정 의미를 부여해준 Container 요소
+2) 레이아웃 구성할 때 각각의 영역을 구분하기 위해 사용
+
+참고링크
+
+- [Can I use](https://caniuse.com/)
+- [Photopea](https://www.photopea.com/)
+- [Website Template](https://freebiesbug.com/psd-freebies/piroll-design-template-agencypersonal-portfolio/)
+
+
+
+
+
 

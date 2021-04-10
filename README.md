@@ -144,9 +144,38 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1&playlist=VIDEO_ID (& : 
 
 참고링크
 
-- [Can I use](https://caniuse.com/)
 - [Photopea](https://www.photopea.com/)
 - [Website Template](https://freebiesbug.com/psd-freebies/piroll-design-template-agencypersonal-portfolio/)
+
+### 프론트엔드 기술(HTML, CSS, js)의 브라우저 지원 여부 체크
+
+- 프론트엔드 기술이 버전업 될때마다 브라우저가 지원하는지 체크할 필요가 있음.
+- HTML5/5.1 , CSS3 , ES2015이후 버전들의 기술은 항상 지원여부 체크가 필요함.
+- 브라우저 지원 여부
+  - 상위 호환성 : 새 버전 브라우저의 지원 여부
+  - 하위 호환성 : 구 버전 브라우저의 지원 여부
+- 일반적으로 브라우저 지원은 하위 호환성 체크가 중요함
+
+- [Can I use](https://caniuse.com/)
+
+> [HTML Block and Inline Elements](https://www.w3schools.com/html/html_blocks.asp)
+
+- Non-semantic element(grouping 요소)
+  - div(division)
+  - span
+
+### Block/Inline Element
+
+- block : 새 줄(줄바꿈)에서 표시
+- inline : 한 줄에 나란히 표시
+- 포함관계
+  - block : block, inline, contents(text) 모두 포함할 수 있음
+  - inline : inline, contents(text) 만 포함 가능
+  - 예외 : inline요소인 a 태그는 모두 포함 가능 
+
+
+
+
 
 
 

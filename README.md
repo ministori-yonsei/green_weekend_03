@@ -179,31 +179,31 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1&playlist=VIDEO_ID (& : 
 
 > 텍스트 입력 폼 요소
 ```
-- <input type="text" /> : 한 줄 입력
-- <textarea></textarea> : 여러 줄 입력
-- <input type="password" /> : 한 줄 입력, 입력 내용이 기호로 표시
+<input type="text" /> : 한 줄 입력
+<textarea></textarea> : 여러 줄 입력
+<input type="password" /> : 한 줄 입력, 입력 내용이 기호로 표시
 ```
 > 파일 업로드 폼 요소
-
-- <input type="file" />
-
+```
+<input type="file" />
+```
 > 선택 폼 요소
-
-- <input type="radio" />
-- <input type="checkbox" />
-- <select>
-    <option></option> : 목록 항목
-  </select>
-  
+```
+<input type="radio" />
+<input type="checkbox" />
+<select>
+  <option></option> : 목록 항목
+</select>
+```  
 > 실행 폼 요소
-
-- <input type="button" />
-- <input type="reset" />
-- <input type="submit" />
-- <button type="button"></button>
-- <button type="reset"></button>
-- <button type="submit"></button>
-
+```
+<input type="button" />
+<input type="reset" />
+<input type="submit" />
+<button type="button"></button>
+<button type="reset"></button>
+<button type="submit"></button>
+```
 
 
 

@@ -178,11 +178,11 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1&playlist=VIDEO_ID (& : 
 > [HTML Form Elements](https://www.w3schools.com/html/html_form_elements.asp)
 
 > 텍스트 입력 폼 요소
-
+```
 - <input type="text" /> : 한 줄 입력
 - <textarea></textarea> : 여러 줄 입력
 - <input type="password" /> : 한 줄 입력, 입력 내용이 기호로 표시
-
+```
 > 파일 업로드 폼 요소
 
 - <input type="file" />

@@ -1,5 +1,8 @@
 # 프론트 엔드 기초 수업
 
+> [Gihub 저장소](https://github.com/ministori-yonsei)
+> [Codepen 저장소](https://codepen.io/ministori-yonsei)
+
 ## GITHUB 기초 개념
 
 > GITHUB 용어

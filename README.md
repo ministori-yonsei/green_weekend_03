@@ -205,6 +205,40 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1&playlist=VIDEO_ID (& : 
 <button type="submit"></button>
 ```
 
+### HTML Element에 이름 붙이기
+
+> id와 class를 사용
+```
+<p id="paragraph1">단락</p>
+<p class="paragraph2"></p>
+```
+> id와 class의 차이
+- id는 하나의 HTML 파일(문서)에서 중복 사용될 수 없음
+- class 하나의 HTML 파일(문서)에서 중복 사용할 수 있음(CSS styling, Javascript 기능을 동시 적용)
+
+> 표기법(여러단어가 사용될경우 단어를 구분)
+- gnb-list-item : kebab case
+- gnb_list_item : snake case
+- gnbListItem : camel case
+- GnbListItem : pascal case
+
+- 파일, 폴더 이름 : snake case
+- id, class : kebab case
+- 자바스크립트 변수, 함수 : camel case
+
+### 박스 가로 배치
+
+> float
+
+- left, right 속성값으로 가로배치
+- 부모요소를 기준으로 왼쪽 배치, 오른쪽 배치
+- right를 값을 사용하면 박스 순서가 반대로 배치
+
+
+
+
+
+
 
 
 

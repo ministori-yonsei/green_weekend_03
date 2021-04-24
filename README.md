@@ -235,6 +235,11 @@ youtube_url/VIDEO_ID?controls=1&autoplay=1&mute=1&loop=1&playlist=VIDEO_ID (& : 
 - right를 값을 사용하면 박스 순서가 반대로 배치
 
 
+### 반응형 웹(Responsive Web)
+
+> OSMU(One Source Multi Use) - One Source => HTML
+> 적응형 웹(Adaptive Web) - OSMU가 적용되지 않음
+
 
 
 

@@ -52,6 +52,11 @@ html, body{
     height:100%;
 }
 
+.weather{
+    width:100%;
+    height:50%;
+}
+
 .weather-image-container{
     text-align:center;
 }
@@ -75,6 +80,10 @@ html, body{
     font-weight:700;
 }
 
+.map-area{
+    width:100%;
+    height:50%;
+}
 
 
 

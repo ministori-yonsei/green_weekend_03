@@ -1,9 +1,3 @@
-let weatherImage = document.querySelector('.weather-image');
-let weatherText = document.querySelector('.weather-text');
-let weatherTempCurrent = document.querySelector('.weather-temp-current span');
-let weatherTempMin = document.querySelector('.weather-temp-minmax .min');
-let weatherTempMax = document.querySelector('.weather-temp-minmax .max');
-
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div
     mapOption = {
         center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
@@ -13,12 +7,12 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
 var map = new kakao.maps.Map(mapContainer, mapOption);
 
-// 마커 생성
-var marker = new kakao.maps.Marker({
-    position:map.getCenter()
-}); // 매개변수 값 : 마커위치
-
-// 마커 표시
+// // 마커 생성
+// var marker = new kakao.maps.Marker({
+//     position:map.getCenter()
+// }); // 매개변수 값 : 마커위치
+//
+// // 마커 표시
 // marker.setMap(map);
 
 // 지도에 클릭 이벤트를 등록합니다
@@ -50,41 +44,20 @@ geocoder.addressSearch('서울특별시 강남구 강남대로96길 16', functio
     if (status === kakao.maps.services.Status.OK) {
 
         var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
-        console.log(result[0].y, result[0].x);
 
         // 결과값으로 받은 위치를 마커로 표시합니다
-        marker = new kakao.maps.Marker({
+        var marker = new kakao.maps.Marker({
             map: map,
             position: coords
         });
 
+        // // 인포윈도우로 장소에 대한 설명을 표시합니다
+        // var infowindow = new kakao.maps.InfoWindow({
+        //     content: '<div style="width:150px;text-align:center;padding:6px 0;">우리회사</div>'
+        // });
+        // infowindow.open(map, marker);
+
         // 지도의 중심을 결과값으로 받은 위치로 이동시킵니다
         map.setCenter(coords);
-
-
-        fetch('https://api.openweathermap.org/data/2.5/weather?lat=' + result[0].y + '&lon=' + result[0].x + '&appid=38839cb93ff3097889b4eba2996ff3d5')
-            .then(function(response) {
-                return response.json();
-            })
-            .then(function(myJson) {
-                console.log(myJson);
-                console.log(myJson.weather[0].main);
-                console.log(myJson.weather[0].icon);
-                console.log(myJson.main.temp - 273.15);
-                console.log(myJson.main.temp_max - 273.15);
-                console.log(myJson.main.temp_min - 273.15);
-
-                // 10, 21 => 1021 || 10 + 21 => 31 || '10' + '21' => '1021'
-                weatherImage.src = '../images/' + myJson.weather[0].icon + '@2x.png';
-
-                weatherText.innerHTML = myJson.weather[0].main;
-
-                weatherTempCurrent.innerHTML = Math.floor(myJson.main.temp - 273.15);
-
-                weatherTempMin.innerHTML = Math.floor(myJson.main.temp_min - 273.15);
-
-                weatherTempMax.innerHTML = Math.floor(myJson.main.temp_max - 273.15);
-
-            }); // method chaining
     }
 });
